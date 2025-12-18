@@ -1,3 +1,10 @@
+## Project Architecture
+
+The following diagram illustrates the end-to-end architecture of the project.
+showing data ingestion, processing, storage, and analytics layers.
+
+![Project Architecture Diagram](https://github.com/muhib20/public-sector-data-warehouse-sql-powerbi/blob/main/Docs/architecture_diagram.png)
+
 ## Data Model (ER Diagram)
 
 The data warehouse follows a star schema design with a central fact table
