@@ -1,0 +1,95 @@
+{
+  "name": "Muhib-Premium-Theme",
+  "dataColors": [
+    "#4A90E2", 
+    "#7ED321",
+    "#F5A623",
+    "#BD10E0",
+    "#50E3C2",
+    "#B8E986",
+    "#F8E71C",
+    "#D0021B",
+    "#417505",
+    "#9013FE",
+    "#8B572A",
+    "#4A4A4A"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#333333",
+  "tableAccent": "#4A90E2",
+
+  "visualStyles": {
+    "*": {
+      "*": {
+        "titleText": [{
+          "fontSize": 16,
+          "fontFamily": "Segoe UI",
+          "fontWeight": "bold",
+          "color": "#333333"
+        }],
+        "labelColor": [{
+          "color": "#333333"
+        }],
+        "fontColor": [{
+          "color": "#333333"
+        }],
+        "backColor": [{
+          "color": "#FFFFFF"
+        }],
+        "outlineWeight": [{
+          "weight": 0
+        }]
+      }
+    },
+
+    "slicer": {
+      "*": {
+        "titleText": [{
+          "fontSize": 14,
+          "fontFamily": "Segoe UI",
+          "fontWeight": "600"
+        }],
+        "header": [{
+          "fontSize": 13,
+          "fontFamily": "Segoe UI"
+        }],
+        "items": [{
+          "fontSize": 12,
+          "fontFamily": "Segoe UI"
+        }]
+      }
+    },
+
+    "clusteredColumnChart": {
+      "*": {
+        "dataLabels": [{
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "color": "#333333",
+          "show": true
+        }],
+        "categoryAxis": [{
+          "labelFontSize": 12,
+          "fontFamily": "Segoe UI"
+        }],
+        "valueAxis": [{
+          "labelFontSize": 12,
+          "fontFamily": "Segoe UI"
+        }]
+      }
+    }
+  },
+
+  "textClasses": {
+    "header": {
+      "fontFace": "Segoe UI",
+      "fontSize": 16,
+      "color": "#333333"
+    },
+    "callout": {
+      "fontFace": "Segoe UI",
+      "fontSize": 40,
+      "color": "#4A90E2"
+    }
+  }
+}
